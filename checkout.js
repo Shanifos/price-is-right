@@ -4,9 +4,10 @@ function calculateItemTotal(item) {
 
   return item
 }
+const calculateTotal = (items) => items.map(calculateItemTotal)
 
-function calculateTotal(items) {
-  return items
-}
+// function calculateTotal(items) {
+//   return items.map(calculateItemTotal)
+// }
 
 module.exports = calculateTotal
